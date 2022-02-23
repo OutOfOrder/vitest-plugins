@@ -1,0 +1,28 @@
+{
+  "name": "vitest-plugin-context",
+  "version": "1.0.0",
+  "description": "Exposes a context alias for describe to vitest.",
+  "license": "MIT",
+  "author": "Edward Rudd <urkle@outoforder.cc>",
+  "homepage": "https://github.com/OutOfOrder/vitest-plugins",
+  "repository": "http://github.com/OutOfOrder/vitest-plugins/tree/master/packages/vitest-plugin-context",
+  "keywords": [
+    "context",
+    "vitest",
+    "vitest-plugin",
+    "plugin",
+    "test"
+  ],
+  "type": "module",
+  "main": "dist/index.mjs",
+  "exports": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vitest": "*"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  }
+}

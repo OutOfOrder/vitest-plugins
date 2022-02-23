@@ -1,0 +1,28 @@
+{
+  "name": "vitest-plugins",
+  "version": "1.0.0",
+  "description": "Adds plugins support to vitest.",
+  "license": "MIT",
+  "author": "Edward Rudd <urkle@outoforder.cc>",
+  "homepage": "https://github.com/negativetwelve/vitest-plugins",
+  "repository": "https://github.com/negativetwelve/vitest-plugins/tree/master/packages/vitest-plugins",
+  "keywords": [
+    "vitest",
+    "vitest-plugin",
+    "vitest-plugins",
+    "plugins",
+    "test"
+  ],
+  "type": "module",
+  "main": "dist/index.mjs",
+  "exports": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vitest": "*"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  }
+}

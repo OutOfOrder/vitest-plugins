@@ -1,0 +1,14 @@
+{
+  "name": "vitest-plugins-example-basic",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "vitest": "0.5.4",
+    "vitest-plugin-context": "^1.0.0",
+    "vitest-plugin-set": "^1.0.0",
+    "vitest-plugins": "^1.0.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vitest-plugin-set",
+  "version": "1.0.0",
+  "description": "Declarative JS tests with lazy evaluation using vitest.",
+  "license": "MIT",
+  "author": "Edward Rudd <urkle@outoforder.cc>",
+  "homepage": "https://github.com/OutOfOrder/vitest-plugins",
+  "repository": "http://github.com/OutOfOrder/vitest-plugins/tree/master/packages/vitest-plugin-set",
+  "keywords": [
+    "declarative",
+    "let",
+    "set",
+    "tdd",
+    "vitest",
+    "vitest-plugin",
+    "plugin",
+    "test"
+  ],
+  "type": "module",
+  "main": "dist/index.mjs",
+  "exports": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vitest": "*"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  }
+}
