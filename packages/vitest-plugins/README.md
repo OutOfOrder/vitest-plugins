@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/vitest-plugins.svg)](https://www.npmjs.com/package/vitest-plugins)
 [![npm](https://img.shields.io/npm/dt/vitest-plugins.svg)](https://www.npmjs.com/package/vitest-plugins)
-[![npm](https://img.shields.io/npm/l/vitest-plugins.svg)](https://github.com/negativetwelve/vitest-plugins/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/vitest-plugins.svg)](https://github.com/OutOfOrder/vitest-plugins/blob/master/LICENSE)
 
 Adds plugins support to Vitest.
 
