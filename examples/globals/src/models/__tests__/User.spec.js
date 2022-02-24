@@ -1,8 +1,6 @@
 // Models
 import User from '../User';
 import {describe, expect, it} from "vitest";
-import {set} from "vitest-plugin-set";
-import {context} from "vitest-plugin-context";
 
 /* global firstName, lastName, user */
 describe('User', () => {
